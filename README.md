@@ -16,13 +16,14 @@ Fatorial: Calcula fatorial (apenas para inteiros não negativos)
 1. Clone o repositório:
  Abra o Git bash e digite:
  git clone https://github.com/tiagogregorio/C214-B-ProjetoCalculadora.git
+
 cd C214-B-ProjetoCalculadora
 
-2. Compile e gere o artefato:
+3. Compile e gere o artefato:
 bash
 mvn clean package
 
-3. Execute o programa:
+4. Execute o programa:
 bash
 java -jar target/<nome-do-jar>.jar
 
