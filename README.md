@@ -12,8 +12,8 @@ Raiz Quadrada: Calcula raiz quadrada
 Porcentagem: Calcula porcentagem de um número em relação ao outro
 Fatorial: Calcula fatorial (apenas para inteiros não negativos)
 
-Requisitos do Sistema
-Sistema Operacional: Windows, Linux ou macOS
+Requisitos do Sistema ->
+Windows, Linux ou macOS
 Java: JDK 8 ou superior
 
 Desenvolvido com uso do IntelliJ usando Java
