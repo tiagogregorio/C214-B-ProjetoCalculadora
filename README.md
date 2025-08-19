@@ -27,6 +27,9 @@ bash
 java -jar target/<nome-do-jar>.jar
 
 Requisitos do Sistema: 
+
 Windows, Linux ou macOS
+
 Java: JDK 8 ou superior
+
 Desenvolvido com uso do IntelliJ usando Java
