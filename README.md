@@ -1,12 +1,12 @@
 # C214-B-ProjetoCalculadora (Aprendendo Git e GitHub)
 Funcionalidades
-Operações Básicas
+Operações Básicas ->
 Soma: Adição de dois números
 Subtração: Diferença entre dois números
 Multiplicação: Produto de dois números
 Divisão: Quociente entre dois números (com tratamento de divisão por zero)
 
-Operações Avançadas
+Operações Avançadas ->
 Potenciação: Eleva um número à potência de outro
 Raiz Quadrada: Calcula raiz quadrada
 Porcentagem: Calcula porcentagem de um número em relação ao outro
