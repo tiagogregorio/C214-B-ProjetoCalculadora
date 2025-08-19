@@ -34,7 +34,7 @@ mvn clean package
 
 4. Execute o programa:
 bash
-java -jar target/<nome-do-jar>.jar
+java -jar target/C214-B-ProjetoCalculadora-1.0-SNAPSHOT.jar
 
 Requisitos do Sistema: 
 
