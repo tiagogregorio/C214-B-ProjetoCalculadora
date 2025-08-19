@@ -1,18 +1,27 @@
 # C214-B-ProjetoCalculadora (Aprendendo Git e GitHub)
-Funcionalidades
-Operações Básicas ->
-Soma: Adição de dois números
-Subtração: Diferença entre dois números
-Multiplicação: Produto de dois números
-Divisão: Quociente entre dois números (com tratamento de divisão por zero)
 
-Operações Avançadas ->
-Potenciação: Eleva um número à potência de outro
-Raiz Quadrada: Calcula raiz quadrada
-Porcentagem: Calcula porcentagem de um número em relação ao outro
-Fatorial: Calcula fatorial (apenas para inteiros não negativos)
+## 📘 Descrição
+Este projeto é uma calculadora em Java que realiza operações básicas e avançadas:
 
-## Como compilar e executar
+- **Básicas**: Soma, Subtração, Multiplicação, Divisão (com tratamento de divisão por zero)
+- **Avançadas**: Potenciação, Raiz Quadrada, Porcentagem, Fatorial (apenas inteiros não negativos)
+
+O objetivo é praticar **versionamento com Git e GitHub**, incluindo:
+- Criação de repositório público
+- Uso de `.gitignore`
+- Histórico de commits
+- Colaboração via Pull Request
+- Resolução de conflitos
+- Situações adicionais (branch/merge, revert, stash, rebase)
+
+---
+
+## ⚙️ Requisitos do Sistema
+- Windows, Linux ou macOS
+- **Java JDK 8** ou superior
+- **Maven** instalado
+
+## ▶️ Como compilar e executar
 1. Clone o repositório:
  Abra o Git bash e digite:
  git clone https://github.com/tiagogregorio/C214-B-ProjetoCalculadora.git
