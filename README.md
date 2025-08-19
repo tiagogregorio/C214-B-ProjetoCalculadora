@@ -17,7 +17,7 @@ Fatorial: Calcula fatorial (apenas para inteiros não negativos)
  Abra o Git bash e digite:
  git clone https://github.com/tiagogregorio/C214-B-ProjetoCalculadora.git
 
-cd C214-B-ProjetoCalculadora
+ Abrir diretório: cd C214-B-ProjetoCalculadora
 
 3. Compile e gere o artefato:
 bash
