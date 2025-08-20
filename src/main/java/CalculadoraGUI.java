@@ -21,9 +21,9 @@ public class CalculadoraGUI extends JFrame {
         painelEntrada.add(campoB);
         add(painelEntrada);
 
-        JPanel painelBotoes = new JPanel(new GridLayout(3, 3));
+        JPanel painelBotoes = new JPanel(new GridLayout(4, 3));
         String[] operacoes = {"Soma", "Subtração", "Multiplicação", "Divisão",
-                "Potência", "Raiz A", "Raiz B", "Porcentagem", "Fatorial A"};
+                "Potência", "Raiz A", "Raiz B", "Porcentagem", "Fatorial A", "Log"};
         for (String op : operacoes) {
             JButton botao = new JButton(op);
             painelBotoes.add(botao);
@@ -58,6 +58,7 @@ public class CalculadoraGUI extends JFrame {
                     case "Raiz B" -> resultado.setText(String.valueOf(c.raizQuadradaB()));
                     case "Porcentagem" -> resultado.setText(String.valueOf(c.porcentagem()));
                     case "Fatorial A" -> resultado.setText(String.valueOf(c.fatorialA()));
+                    case "Log" -> resultado.setText(String.valueOf(c.logBase()));
                 }
             } catch (Exception ex) {
                 JOptionPane.showMessageDialog(null, "Erro: " + ex.getMessage(),
