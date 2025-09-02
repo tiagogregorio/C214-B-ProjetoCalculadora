@@ -1,3 +1,5 @@
+package org.example;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -23,7 +25,7 @@ public class CalculadoraGUI extends JFrame {
 
         JPanel painelBotoes = new JPanel(new GridLayout(4, 3));
         String[] operacoes = {"Soma", "Subtração", "Multiplicação", "Divisão",
-                "Potência", "Raiz A", "Raiz B", "Porcentagem", "Fatorial A", "Log"};
+                "Potência", "Raiz A", "Raiz B", "Porcentagem", "Fatorial A", "Fatorial B", "Log b (A)"};
         for (String op : operacoes) {
             JButton botao = new JButton(op);
             painelBotoes.add(botao);
@@ -58,7 +60,8 @@ public class CalculadoraGUI extends JFrame {
                     case "Raiz B" -> resultado.setText(String.valueOf(c.raizQuadradaB()));
                     case "Porcentagem" -> resultado.setText(String.valueOf(c.porcentagem()));
                     case "Fatorial A" -> resultado.setText(String.valueOf(c.fatorialA()));
-                    case "Log" -> resultado.setText(String.valueOf(c.logBase()));
+                    case "Fatorial B" -> resultado.setText(String.valueOf(c.fatorialB()));
+                    case "Log b (A)" -> resultado.setText(String.valueOf(c.logBase()));
                 }
             } catch (Exception ex) {
                 JOptionPane.showMessageDialog(null, "Erro: " + ex.getMessage(),
