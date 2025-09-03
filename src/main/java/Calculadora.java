@@ -1,3 +1,5 @@
+package org.example;
+
 public class Calculadora {
     private double a, b;
 
@@ -25,9 +27,19 @@ public class Calculadora {
         }
         return this.a / this.b;
     }
-
-    // Operações avançadas
+      /*
     public double potencia() {
+        return Math.pow(this.a, this.b);
+    }
+    Supondo que não será permitido expoente negativo conforme o codigo abaixo,
+    irá passar nos testes, mas caso faça conforme o codigo acima, consigo pegar
+    falha no testes, devo comentar o codigo abaixo e tirar o comentario do codigo acima
+    para entender a situação.*/
+
+    public double potencia() {
+        if (this.b < 0) {
+            throw new ArithmeticException("Expoente negativo não suportado!");
+        }
         return Math.pow(this.a, this.b);
     }
 
